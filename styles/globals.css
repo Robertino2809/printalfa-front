@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-nav {
+  border: 2px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: white;
+  width: 95%;
+}
+
+.border-hero { 
+  border-right:  2px solid black; 
+  border-left: 2px solid black;
+}
+
+.border-footer {
+  border-right:  2px solid black; 
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.hero-span {
+  transform: rotate(30deg);
+}
+
+.red-color {
+  background-color: #FF6060;
+}
+
+.text-red {
+  color: #FF6060;
+}
+
+.text-black-stroke{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.text-stroke {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.circle {
+  background-color: #FF6060;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.product-border {
+  border-top:  1px solid #e5e7eb; 
+}
+
+.card-border {
+  border: 2px solid #000;
+}
+
+.card-shadow {
+  box-shadow: 5px 5px 0 1px #ff6060;
+}
+
+.button-shadow {
+  box-shadow: 3px 3px 0 1px #ff6060;
+}
+
+.button-border{
+  border: 1px solid #000;
+}
+
+.primary {
+  background-color: #0077ff;
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary:hover {
+  background-color: #0011ff;
+  transition: ease-in-out;
+  transition-duration: 500ms;
+}
