@@ -8,7 +8,6 @@ import {CartContext} from "@/components/CartContext";
 
 const navigation = [
   { name: 'Proizvodi', href: '/products' },
-  { name: 'Kategorije', href: '/categories' },
   { name: 'Portfolio', href: '/portfolio' }
 ]
 
